@@ -1,0 +1,214 @@
+[
+  {
+    "id": "portugues",
+    "area": "Língua Portuguesa",
+    "category": "basico",
+    "topics": [
+      { "id": "p-1", "topic": "1. Compreensão e interpretação de textos", "details": "Gêneros variados." },
+      { "id": "p-2", "topic": "2. Reconhecimento de tipos e gêneros textuais", "details": "Análise da estrutura e finalidade dos textos." },
+      { "id": "p-3", "topic": "3. Domínio da ortografia oficial", "details": "Regras de acentuação e grafia." },
+      { "id": "p-4", "topic": "4. Domínio dos mecanismos de coesão textual", "details": "Referenciação, substituição, repetição, conectores." },
+      { "id": "p-5", "topic": "5. Domínio da estrutura morfossintática", "details": "Classes de palavras, coordenação, subordinação, pontuação, concordância, regência, crase." },
+      { "id": "p-6", "topic": "6. Reescrita de frases e parágrafos", "details": "Significação, substituição de palavras, reorganização da estrutura." }
+    ]
+  },
+  {
+    "id": "ingles",
+    "area": "Língua Inglesa",
+    "category": "basico",
+    "topics": [
+      { "id": "i-1", "topic": "1. Compreensão de textos variados", "details": "Domínio do vocabulário, ideias principais e secundárias." },
+      { "id": "i-2", "topic": "2. Itens gramaticais relevantes", "details": "Estruturas importantes para a compreensão de conteúdos semânticos." },
+      { "id": "i-3", "topic": "3. Conhecimento e uso das formas contemporâneas", "details": "Uso prático da linguagem inglesa atual." }
+    ]
+  },
+  {
+    "id": "raciocinio",
+    "area": "Raciocínio Analítico",
+    "category": "basico",
+    "topics": [
+      { "id": "r-1", "topic": "1. Raciocínio analítico e a argumentação", "details": "Uso do senso crítico na argumentação." },
+      { "id": "r-2", "topic": "2. Tipos de Argumentos", "details": "Identificação de argumentos falaciosos e apelativos." },
+      { "id": "r-3", "topic": "3. Comunicação eficiente de argumentos", "details": "Estruturação clara e lógica do discurso." }
+    ]
+  },
+  {
+    "id": "controle_externo_basico",
+    "area": "Controle Externo",
+    "category": "basico",
+    "topics": [
+      { "id": "ceb-1", "topic": "1. Conceito, tipos e formas de controle", "details": "Noções gerais sobre controle na administração pública." },
+      { "id": "ceb-2", "topic": "2. Controle interno e externo", "details": "Diferenças e complementaridades." },
+      { "id": "ceb-3", "topic": "3. Controle parlamentar", "details": "Fiscalização pelo Poder Legislativo." },
+      { "id": "ceb-4", "topic": "4. Controle pelos tribunais de contas", "details": "Atribuições constitucionais das cortes de contas." },
+      { "id": "ceb-5", "topic": "5. Lei nº 8.429/1992", "details": "Lei de Improbidade Administrativa." }
+    ]
+  },
+  {
+    "id": "adm_publica",
+    "area": "Administração Pública",
+    "category": "basico",
+    "topics": [
+      { "id": "ap-1", "topic": "1. Abordagens da administração", "details": "Clássica, burocrática, sistêmica e evolução no Brasil." },
+      { "id": "ap-2", "topic": "2. Processo administrativo", "details": "Funções, estrutura e cultura organizacional." },
+      { "id": "ap-3", "topic": "3. Gestão de pessoas", "details": "Equilíbrio, objetivos, comportamento organizacional." },
+      { "id": "ap-4", "topic": "4. Noções de gestão de processos", "details": "Mapeamento, análise e melhoria." },
+      { "id": "ap-5", "topic": "5. Gestão de projetos", "details": "Elaboração, análise, modelos e metodologia ágil." },
+      { "id": "ap-6", "topic": "6. Administração de recursos materiais e ESG", "details": "Gestão de suprimentos e sustentabilidade." }
+    ]
+  },
+  {
+    "id": "constitucional",
+    "area": "Direito Constitucional",
+    "category": "basico",
+    "topics": [
+      { "id": "dc-1", "topic": "1. Constituição e Poder Constituinte", "details": "Conceito, classificações, supremacia e interpretação." },
+      { "id": "dc-2", "topic": "2. Direitos e garantias fundamentais", "details": "Individuais, coletivos, sociais, políticos e remédios constitucionais." },
+      { "id": "dc-3", "topic": "3. Organização do Estado", "details": "Organização político-administrativa, União, Estados, Municípios, DF." },
+      { "id": "dc-4", "topic": "4. Administração Pública na CF", "details": "Disposições gerais e servidores públicos." },
+      { "id": "dc-5", "topic": "5. Organização dos Poderes", "details": "Legislativo, Executivo e Judiciário; freios e contrapesos." },
+      { "id": "dc-6", "topic": "6. Controle de constitucionalidade", "details": "Sistemas, controle incidental e abstrato." },
+      { "id": "dc-7", "topic": "7. Defesa do Estado e das instituições", "details": "Estado de defesa, estado de sítio." }
+    ]
+  },
+  {
+    "id": "administrativo",
+    "area": "Direito Administrativo",
+    "category": "basico",
+    "topics": [
+      { "id": "da-1", "topic": "1. Estado, governo e administração pública", "details": "1.1 Conceitos. 1.2 Elementos." },
+      { "id": "da-2", "topic": "2. Direito administrativo", "details": "2.1 Conceito. 2.2 Objeto. 2.3 Fontes." },
+      { "id": "da-3", "topic": "3. Ato administrativo", "details": "3.1 Conceito, requisitos, atributos, classificação e espécies. 3.2 Extinção do ato administrativo. 3.3 Decadência administrativa." },
+      { "id": "da-4", "topic": "4. Agentes públicos", "details": "4.1 Legislação pertinente (Lei nº 8.112/1990). 4.2 Disposições doutrinárias." },
+      { "id": "da-5", "topic": "5. Poderes da administração pública", "details": "5.1 Hierárquico, disciplinar, regulamentar e de polícia. 5.2 Uso e abuso do poder." },
+      { "id": "da-8", "topic": "8. Serviços públicos", "details": "8.1 Conceito e elementos constitutivos. 8.3 Delegação: concessão, permissão e autorização." },
+      { "id": "da-9", "topic": "9. Organização administrativa", "details": "9.2 Administração direta e indireta." },
+      { "id": "da-12", "topic": "12. Licitações e contratos administrativos", "details": "12.2 Lei nº 14.133/2021." }
+    ]
+  },
+  {
+    "id": "auditoria",
+    "area": "Auditoria Governamental",
+    "category": "basico",
+    "topics": [
+      { "id": "aud-1", "topic": "1. Conceito, finalidade, objetivo, abrangência e atuação", "details": "Auditoria interna e externa." },
+      { "id": "aud-3", "topic": "3. Tipos de auditoria", "details": "Conformidade, Operacional, Financeira." },
+      { "id": "aud-4", "topic": "4. Normas de auditoria", "details": "Normas de Auditoria do TCU, Normas da INTOSAI e NBASP." },
+      { "id": "aud-5", "topic": "5. Planejamento de auditoria", "details": "Escopo, materialidade, risco, relevância, amostragem." },
+      { "id": "aud-6", "topic": "6. Execução da auditoria", "details": "Programas, papéis de trabalho, testes, técnicas e procedimentos." }
+    ]
+  },
+  {
+    "id": "infra",
+    "area": "Infraestrutura de TI",
+    "category": "especifico",
+    "topics": [
+      { "id": "infra-1", "topic": "1. Arquitetura Infraestrutura de TI", "details": "Topologias físicas e lógicas. Data Center (on-premises, cloud, híbrida). Infraestrutura hiperconvergente. Arquitetura escalável, tolerante a falhas e redundante." },
+      { "id": "infra-2", "topic": "2. Redes e Comunicação de Dados", "details": "TCP, UDP, SCTP, ARP, TLS, SSL, OSPF, BGP, DNS, DHCP, ICMP, FTP, SFTP, SSH, HTTP, HTTPS, SMTP, IMAP, POP3. VLANs, STP, QoS, Roteamento/Switching. SDN e redes programáveis. Wireless (Wi-Fi 6, WPA3, roaming, mesh)." },
+      { "id": "infra-3", "topic": "3. Sistemas Operacionais e Servidores", "details": "Linux e Windows Server (Admin avançada). Virtualização (KVM, VMware vSphere/ESXi). AD, LDAP. Gestão de usuários, permissões, GPOs." },
+      { "id": "infra-4", "topic": "4. Armazenamento e Backup", "details": "SAN, NAS, DAS (iSCSI, NFS, SMB). RAID. Backup/Recuperação: RPO, RTO, snapshots, deduplicação. Oracle RMAN." },
+      { "id": "infra-5", "topic": "5. Segurança de Infraestrutura", "details": "Hardening. Firewalls (NGFW), IDS/IPS, proxies, NAC. VPNs, SSL/TLS, PKI. Segmentação de rede." },
+      { "id": "infra-6", "topic": "6. Monitoramento, Gestão e Automação", "details": "Zabbix, New Relic, Grafana. Capacidade, disponibilidade, desempenho. ITIL v4 (CMDB). Automação (PowerShell, Bash, Puppet)." },
+      { "id": "infra-7", "topic": "7. Alta Disponibilidade e DR", "details": "Clusters, balanceamento de carga, Failover, heartbeat, fencing. Planos de continuidade e testes de DR." }
+    ]
+  },
+  {
+    "id": "dados",
+    "area": "Engenharia de Dados",
+    "category": "especifico",
+    "topics": [
+      { "id": "dados-1", "topic": "1. Bancos de Dados", "details": "Relacionais (Oracle, SQL Server) e NoSQL (Elasticsearch, MongoDB). Modelagens (Relacional, multi, nosql). SQL." },
+      { "id": "dados-2", "topic": "2. Arquitetura de BI", "details": "DataWarehouse, DataMart, DataLake, DataMesh." },
+      { "id": "dados-3", "topic": "3. Conectores e integração", "details": "APIs REST/SOAP, Web Services. Arquivos planos (CSV, JSON, XML, Parquet). Mensageria. Segurança (TLS, autenticação)." },
+      { "id": "dados-4", "topic": "4. Fluxo de manipulação de dados", "details": "ETL. Pipelines: versionamento, logging, auditoria, tolerância a falhas, CI/CD." },
+      { "id": "dados-5", "topic": "5. Governança e Qualidade de Dados", "details": "Linhagem, catalogação. Validação, deduplicação. Metadados, glossários, políticas de acesso." },
+      { "id": "dados-6", "topic": "6. Integração com nuvem", "details": "Azure Data Factory, Service Fabric, Databricks. Storage (S3, Blob, GCS). Integração com IA." }
+    ]
+  },
+  {
+    "id": "software",
+    "area": "Engenharia de Software",
+    "category": "especifico",
+    "topics": [
+      { "id": "sw-1", "topic": "1. Arquitetura de Software", "details": "Padrões, Monolito, Microserviços, Serverless. Eventos/Mensageria. Integração (API Gateway, Service Mesh, CQRS)." },
+      { "id": "sw-2", "topic": "2. Design e Programação", "details": "Padrões (GoF, Grasp). Concorrência, paralelismo, multithreading, assíncrona." },
+      { "id": "sw-3", "topic": "3. APIs e Integrações", "details": "RESTful (Design/Versionamento). Autenticação (OAuth2, JWT, OpenID Connect)." },
+      { "id": "sw-4", "topic": "4. Persistência de Dados", "details": "Modelagem relacional/normalização. NoSQL (MongoDB, ElasticSearch). Versionamento de esquemas." },
+      { "id": "sw-5", "topic": "5. DevOps e CI/CD", "details": "Pipelines (GitHub Actions). Docker/Kubernetes. Monitoramento (Grafana, New Relic)." },
+      { "id": "sw-6", "topic": "6. Testes e Qualidade de Código", "details": "Automatizados (unitários, integração, contrato). Análise estática (SonarQube)." },
+      { "id": "sw-7", "topic": "7. Linguagens de programação", "details": "Java." },
+      { "id": "sw-8", "topic": "8. Desenvolvimento seguro", "details": "DevSecOps." }
+    ]
+  },
+  {
+    "id": "seguranca",
+    "area": "Segurança da Informação",
+    "category": "especifico",
+    "topics": [
+      { "id": "sec-1", "topic": "1. Gestão de Identidades e Acesso", "details": "Autenticação/Autorização, SSO, SAML, OAuth2, OpenId Connect." },
+      { "id": "sec-2", "topic": "2. Privacidade e segurança por padrão", "details": "Privacy by Design/Default." },
+      { "id": "sec-3", "topic": "3. Malware", "details": "Virus, keylogger, trojan, spyware, backdoor, worms, rootkit, adware, fileless, ransomware." },
+      { "id": "sec-4", "topic": "4. Controles e testes", "details": "Segurança para aplicações Web e Web Services." },
+      { "id": "sec-5", "topic": "5. Múltiplos Fatores de Autenticação (MFA)", "details": "Conceitos e aplicação." },
+      { "id": "sec-6", "topic": "6. Soluções de Segurança", "details": "Firewall, IDS, IPS, SIEM, Proxy, IAM, PAM, Antivírus, Antispam." },
+      { "id": "sec-7", "topic": "7. Frameworks", "details": "MITRE ATT&CK, CIS Controls, NIST CSF." },
+      { "id": "sec-8", "topic": "8. Tratamento de Incidentes Cibernéticos", "details": "Procedimentos e resposta." },
+      { "id": "sec-9", "topic": "9. Criptografia", "details": "Assinatura digital, proteção de dados em trânsito e repouso." },
+      { "id": "sec-10", "topic": "10. Segurança em nuvens e contêineres", "details": "Especificidades de ambientes cloud." },
+      { "id": "sec-11", "topic": "11. Ataques a redes", "details": "DoS, DDoS, botnets, phishing, zero-day, ping da morte, UDP Flood, MAC/IP/ARP spoofing, buffer overflow, SQL injection, XSS, DNS Poisoning." }
+    ]
+  },
+  {
+    "id": "cloud",
+    "area": "Computação em Nuvem",
+    "category": "especifico",
+    "topics": [
+      { "id": "cloud-1", "topic": "1. Fundamentos", "details": "IaaS, PaaS, SaaS. Nuvem pública, privada, híbrida. SOA, microsserviços. Elasticidade, escalabilidade, HA." },
+      { "id": "cloud-2", "topic": "2. Plataformas e Serviços", "details": "AWS, Microsoft Azure e Google Cloud Platform." },
+      { "id": "cloud-3", "topic": "3. Arquitetura de Soluções", "details": "Sistemas distribuídos resilientes, serverless, event-driven. Load balancing, auto scaling. Containers (Docker, Kubernetes)." },
+      { "id": "cloud-4", "topic": "4. Redes e Segurança em Nuvem", "details": "VPNs, sub-redes, gateways. IAM, RBAC, MFA. Criptografia (TLS, KMS). Zero Trust. VPN site-to-site, Direct Connect, ExpressRoute." },
+      { "id": "cloud-5", "topic": "5. DevOps, CI/CD e IaC", "details": "Terraform. Pipelines (Jenkins, GitHub Actions). Observabilidade (CloudWatch, Azure Monitor, GCloud Monitoring)." },
+      { "id": "cloud-6", "topic": "6. Governança, Compliance e Custos", "details": "FinOps. Otimização de recursos. Tagueamento, cotas. Normas (ISO 27001, NIST, LGPD)." },
+      { "id": "cloud-7", "topic": "7. Armazenamento e Processamento", "details": "Objetos, blocos, arquivos. Data Lakes. Big Data e AI." },
+      { "id": "cloud-8", "topic": "8. Migração e Modernização", "details": "Estratégias e Ferramentas (AWS Migration Hub, Azure Migrate, GCloud Migration Center)." },
+      { "id": "cloud-9", "topic": "9. Multicloud", "details": "Arquiteturas híbridas. Nuvem soberana e soberania de dados." },
+      { "id": "cloud-10", "topic": "10. Normas governamentais", "details": "Regulamentações sobre nuvem no governo federal." }
+    ]
+  },
+  {
+    "id": "ia",
+    "area": "Inteligência Artificial",
+    "category": "especifico",
+    "topics": [
+      { "id": "ia-1", "topic": "1. Aprendizado de Máquina", "details": "Supervisionado, não supervisionado, semi-supervisionado, reforço, análise preditiva." },
+      { "id": "ia-2", "topic": "2. Redes Neurais e Deep Learning", "details": "Arquiteturas, Frameworks, técnicas de treinamento e aplicações." },
+      { "id": "ia-3", "topic": "3. Processamento de linguagem natural (PLN)", "details": "Modelos, pré-processamento, agentes inteligentes e sistemas multiagentes." },
+      { "id": "ia-4", "topic": "4. Inteligência Artificial Generativa", "details": "Conceitos e aplicações." },
+      { "id": "ia-5", "topic": "5. Arquitetura e engenharia de sistemas de IA", "details": "MLOps. Deploy de modelos. Integração com cloud." },
+      { "id": "ia-6", "topic": "6. Ética, Transparência e Responsabilidade", "details": "Explicabilidade, viés algorítmico, LGPD e princípios éticos." }
+    ]
+  },
+  {
+    "id": "contratacoes",
+    "area": "Contratações de TI",
+    "category": "especifico",
+    "topics": [
+      { "id": "cti-1", "topic": "1. Etapas da Contratação", "details": "ETP, TR, Projeto Básico. Análise de riscos. Pesquisa de preços e RACI." },
+      { "id": "cti-2", "topic": "2. Tipos de Soluções e Modelos", "details": "Software sob demanda, licenciamento, SaaS, IaaS, PaaS. Fábrica de software, sustentação. Outsourcing." },
+      { "id": "cti-3", "topic": "3. Governança e Fiscalização", "details": "Gestor, fiscal técnico/administrativo. SLAs e penalidades. Gestão de mudanças e reequilíbrio." },
+      { "id": "cti-4", "topic": "4. Riscos e Controles", "details": "Controles internos, auditoria e responsabilização." },
+      { "id": "cti-5", "topic": "5. Aspectos Técnicos e Estratégicos", "details": "PDTIC. Requisitos técnicos e não funcionais. Sustentabilidade, acessibilidade e segurança." },
+      { "id": "cti-6", "topic": "6. Legislação e Normativos", "details": "Lei nº 14.133/2021, Decreto nº 10.540/2020, LGPD. IN SGD/ME nº 01/2019, 94/2022 e 65/2021." }
+    ]
+  },
+  {
+    "id": "gestao_ti",
+    "area": "Gestão de Tecnologia da Informação",
+    "category": "especifico",
+    "topics": [
+      { "id": "gti-1", "topic": "1. Gerenciamento de serviços (ITIL v4)", "details": "Conceitos básicos, estrutura e objetivos." },
+      { "id": "gti-2", "topic": "2. Governança de TI (COBIT 5)", "details": "Conceitos básicos, estrutura e objetivos." },
+      { "id": "gti-3", "topic": "3. Metodologias ágeis", "details": "Scrum, XP, Kanban, TDD, BDD e DDD." }
+    ]
+  }
+]

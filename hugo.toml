@@ -1,0 +1,16 @@
+baseURL = 'https://seu-usuario.github.io/concurso-builder/'
+languageCode = 'pt-br'
+title = 'Estudo para Concursos'
+theme = 'hugo-book'
+
+[params]
+  # Configurações do tema Hugo Book
+  BookToC = true
+  BookSearch = true
+  BookRepo = "https://github.com/seu-usuario/concurso-builder"
+
+[menu]
+  [[menu.before]]
+    name = "Disciplinas"
+    url = "/"
+    weight = 1

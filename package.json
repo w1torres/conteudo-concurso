@@ -1,0 +1,16 @@
+{
+  "name": "concurso-builder",
+  "version": "1.0.0",
+  "description": "Gerador automático de material de estudo para concursos",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "generate": "node src/index.js",
+    "server": "hugo server -D"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.2.0",
+    "openai": "^4.24.1"
+  }
+}
