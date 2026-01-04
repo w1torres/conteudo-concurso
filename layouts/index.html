@@ -1,0 +1,33 @@
+{{ define "main" }}
+<article class="markdown book-article">
+  <h1>{{ .Title | default "Minhas Disciplinas" }}</h1>
+
+  <div class="disciplinas-home">
+    {{/* Percorre as pastas de disciplinas ordenadas pelo peso */}}
+    {{ range .Sections.ByWeight }}
+      <details class="disciplina-item" style="margin-bottom: 1rem; border: 1px solid #eee; border-radius: 8px;">
+        <summary style="padding: 15px; cursor: pointer; background: #f8f9fa; font-weight: bold; list-style: none;">
+          📁 {{ .Title }}
+        </summary>
+        <div class="topicos-lista" style="padding: 10px 20px;">
+          <ul style="list-style: none; padding: 0;">
+            {{/* Percorre os tópicos dentro da disciplina */}}
+            {{ range .Pages.ByWeight }}
+              <li style="margin: 8px 0;">
+                <a href="{{ .RelPermalink }}" style="text-decoration: none; color: #007bff;">
+                  📄 {{ .Title }}
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+      </details>
+    {{ end }}
+  </div>
+</article>
+
+<style>
+  summary::-webkit-details-marker { display: none; }
+  .disciplina-item[open] summary { border-bottom: 1px solid #eee; background: #e9ecef; }
+</style>
+{{ end }}

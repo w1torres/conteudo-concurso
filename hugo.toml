@@ -55,3 +55,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Isso diz ao Hugo: se houver 'weight', use-o primeiro. 
   # Se não houver, use a 'date'.
   priority = ["weight", "date", "publishDate", "lastmod"]
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML"]
+  page = ["HTML"]
