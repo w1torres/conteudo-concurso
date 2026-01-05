@@ -1,0 +1,13 @@
+details summary {
+  list-style: none;
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+details[open] summary {
+  background: #e9ecef;
+  border-bottom: 2px solid #007bff;
+}
