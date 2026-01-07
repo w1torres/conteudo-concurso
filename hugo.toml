@@ -4,7 +4,7 @@ title = 'Estudo para Concursos'
 theme = 'hugo-book'
 
 # Garante que o Hugo não converta caminhos para minúsculas (importante para IDs de disciplinas)
-disablePathToLower = true
+disablePathToLower = false
 
 # Remove categorias e tags que o tema "Book" geralmente não utiliza
 disableKinds = ["taxonomy", "taxonomyTerm"]
@@ -61,5 +61,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   section = ["HTML"]
   page = ["HTML"]
 
-canonifyURLs = true
-relativeURLs = true
+  canonifyURLs = true
+  relativeURLs = false
+
+[permalinks]
+  # Garante que as seções sigam um padrão limpo
+  docs = '/:section/:title/'
