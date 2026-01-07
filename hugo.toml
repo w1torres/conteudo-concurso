@@ -61,7 +61,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   section = ["HTML"]
   page = ["HTML"]
 
-  canonifyURLs = true
+  canonifyURLs = false
   relativeURLs = false
 
 [permalinks]
