@@ -60,3 +60,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   home = ["HTML", "RSS"]
   section = ["HTML"]
   page = ["HTML"]
+
+canonifyURLs = true
+relativeURLs = true
