@@ -1,74 +1,62 @@
+# ==========================================
+# 1. CONFIGURAÇÕES GLOBAIS
+# (Sempre no topo, antes de qualquer [tabela])
+# ==========================================
 baseURL = 'https://w1torres.github.io/concurso-hugo/'
 languageCode = 'pt-br'
 title = 'Estudo para Concursos'
 theme = 'hugo-book'
 
-# Garante que os links funcionem em qualquer lugar
-relativeURLs = false
+# Importante para GitHub Pages em subdiretório
 canonifyURLs = true
-
-[params]
-  BookSection = "/"
-  BookToC = true
-  BookSearch = true
-
-# Garante que o Hugo não converta caminhos para minúsculas (importante para IDs de disciplinas)
+relativeURLs = false
 disablePathToLower = false
 
-# Remove categorias e tags que o tema "Book" geralmente não utiliza
+# Remove categorias e tags que o tema "Book" não utiliza
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
+# ==========================================
+# 2. PARAMS (Configurações do Tema Hugo Book)
+# ==========================================
 [params]
-  # --- Configurações do Tema Hugo Book ---
-  
-  # Define qual pasta o menu lateral deve "escanear" para montar a árvore.
-  # Por padrão o tema usa 'docs'. Como seu script coloca as disciplinas na raiz de 'content', 
-  # usamos "/" para que ele pegue todas as pastas de disciplinas.
+  # O tema deve escanear a raiz para montar o menu
   BookSection = "/"
   
-  # Ativa o Sumário (Table of Contents) na lateral direita
+  # Ativa Sumário, Busca e Links do Repositório
   BookToC = true
-  
-  # Ativa a barra de busca (funciona offline via índice JSON)
   BookSearch = true
-  
-  # Link para o seu repositório (aparece no rodapé das páginas)
   BookRepo = "https://github.com/w1torres/concurso-hugo"
   
-  # Caminho para o CSS personalizado que criamos para o menu expansível
+  # Caminho para o CSS personalizado (static/css/custom.css)
   customCSS = ["css/custom.css"]
-
-  # (Opcional) Se quiser que o menu lateral comece sempre aberto
   BookMenuBundle = false
 
+# ==========================================
+# 3. MENU SUPERIOR
+# ==========================================
 [menu]
-  # Menu superior ou links fixos antes da árvore de disciplinas
   [[menu.before]]
     name = "Início"
-    url = "./"
+    url = "/"
     weight = 1
 
+# ==========================================
+# 4. MARKUP (Renderização do Markdown)
+# ==========================================
 [markup]
   [markup.goldmark.renderer]
-    # Permite o uso de HTML dentro dos arquivos Markdown (necessário para shortcodes e customizações)
-    unsafe = true
+    unsafe = true # Necessário para HTML dentro do Markdown
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 4
 
-[services]
-  [services.googleAnalytics]
-    ID = ''
-
+# ==========================================
+# 5. OUTRAS CONFIGURAÇÕES
+# ==========================================
 [frontmatter]
-  # Isso diz ao Hugo: se houver 'weight', use-o primeiro. 
-  # Se não houver, use a 'date'.
   priority = ["weight", "date", "publishDate", "lastmod"]
 
 [outputs]
   home = ["HTML", "RSS"]
   section = ["HTML"]
   page = ["HTML"]
-
-  canonifyURLs = false
-  relativeURLs = false
